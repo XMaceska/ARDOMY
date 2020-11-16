@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'domy',
             location: {
-                lat: 50.07560481,
-                lng: 14.49819048,
+                lat: 49.17193908,
+                lng: 13.50755308,
             }
         },
     ];
@@ -25,7 +25,7 @@ function renderPlaces(places) {
         model.setAttribute('gps-projected-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model','./Domy.gltf');
         model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '10 10 10');
+        model.setAttribute('scale', '1 1 1');
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-projected-entity-place-loaded'))
