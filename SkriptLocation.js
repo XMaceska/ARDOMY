@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'domy',
             location: {
-                lat: 49.17193908,
-                lng: 13.50755308,
+                lat: 50.0755489,
+                lng: 14.4977181,
             }
         },
     ];
